@@ -1,0 +1,68 @@
+<div *ngIf="emp">
+    <mat-card class="example-card"  >
+        <mat-card-title-group>
+          <mat-card-title>{{emp.name}}</mat-card-title>
+          <mat-card-subtitle>
+            <h2>{{emp.position}}</h2>
+            <h3>Employee No: {{emp.employeeNumber}}</h3>
+    <div>
+        <mat-form-field appearance="fill">
+            <mat-label>Name</mat-label>
+            <input matInput [(ngModel)]="emp.name" placeholder="Name">
+          </mat-form-field>
+          <label >  .  </label>
+          <mat-form-field appearance="fill" >
+            <mat-label>Surname:</mat-label>
+            <input matInput [(ngModel)]="emp.surname" placeholder="Surname"/>
+          </mat-form-field>
+    
+    </div>
+  
+    <div>
+        <mat-form-field appearance="fill">
+            <mat-label>Manager</mat-label>
+            <input matInput  [(ngModel)]="emp.manager" placeholder="Manager" >
+          </mat-form-field>
+          <label >  .  </label>
+          <mat-form-field appearance="fill">
+            <mat-label>Permission Level:</mat-label>
+            <input matInput [(ngModel)]="emp.permissionRank" placeholder="Permission Level">
+          </mat-form-field>
+        
+    </div>
+    <div>
+        <mat-form-field appearance="fill">
+            <mat-label>Position:</mat-label>
+            <input matInput [(ngModel)]="emp.position" placeholder="Position" >
+          </mat-form-field>
+          <label >  .  </label>
+        <mat-form-field appearance="fill">
+            <mat-label>Salary:</mat-label>
+            <input matInput [(ngModel)]="emp.salary" placeholder="salary" >
+          </mat-form-field>
+        
+       
+    </div>
+   
+   
+    <div>
+        <mat-form-field appearance="fill">
+            <mat-label>Date of Birth:</mat-label>
+            <input matInput [(ngModel)]="emp.birthDate" placeholder="birthDate">
+          </mat-form-field>
+
+    </div>
+   
+    
+          </mat-card-subtitle>
+          
+          <img mat-card-lg-image *ngIf="emp.id" src='assets\{{emp.employeeNumber}}.jpg' >
+        </mat-card-title-group>
+        <button mat-stroked-button color="primary" (click)="uploadImage()" *ngIf="!emp.id">Upload Image</button>
+        <button mat-stroked-button color="primary" (click)="updateEmployee(emp)" *ngIf="emp.id">Save</button>
+        <button mat-stroked-button color="primary" (click)="deleteEmployee(emp)" *ngIf="emp.id">Delete</button>
+        <button mat-stroked-button color="primary" (click)="createEmployee(emp)" *ngIf="!emp.id">Create</button>
+        
+</mat-card>
+</div>
+

@@ -1,0 +1,16 @@
+<div>
+    <ejs-dropdownlist width="200px" #employee [dataSource]= 'remoteData' [fields]= "dataFields" [query]= "dataQuery" 
+placeholder="Select a user" (change)="onEmployeeChange()">
+<ng-template #itemTemplate let-data>
+  <div>
+    <img class="empImage" src='assets\{{data.employeeNumber}}.jpg'
+    />
+  <div class="ename">
+    {{data.name}}
+  </div>
+  </div >
+
+</ng-template>
+</ejs-dropdownlist>
+  </div>
+
