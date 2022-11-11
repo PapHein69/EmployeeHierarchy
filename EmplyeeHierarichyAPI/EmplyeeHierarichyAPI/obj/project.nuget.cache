@@ -1,9 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "h2x/sc308HzRER+YGQiz7mCBx4XFwc2o2FCB3CFGXO1MfIsHjN3vNmBBuUGiPXrmxhl/nnQszzebaB0uRamEuQ==",
+  "dgSpecHash": "HbjledwgCbab7tOCrWosiPKRWdDrVb6kM4Z9QTkTL6GhTMmZLlxVaDWcdiBBxpx7jJ0PhTI7Mmsch9XyWU1Gaw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\heinr\\Desktop\\epi-use\\EmplyeeHierarichyAPI\\EmplyeeHierarichyAPI\\EmplyeeHierarichyAPI.csproj",
+  "projectFilePath": "C:\\Users\\heinr\\Desktop\\Capstone\\EmployeeHierarchy\\EmplyeeHierarichyAPI\\EmplyeeHierarichyAPI\\EmplyeeHierarichyAPI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\heinr\\.nuget\\packages\\amazon.lambda.apigatewayevents\\2.4.1\\amazon.lambda.apigatewayevents.2.4.1.nupkg.sha512",
+    "C:\\Users\\heinr\\.nuget\\packages\\amazon.lambda.applicationloadbalancerevents\\2.1.0\\amazon.lambda.applicationloadbalancerevents.2.1.0.nupkg.sha512",
+    "C:\\Users\\heinr\\.nuget\\packages\\amazon.lambda.aspnetcoreserver\\7.2.0\\amazon.lambda.aspnetcoreserver.7.2.0.nupkg.sha512",
+    "C:\\Users\\heinr\\.nuget\\packages\\amazon.lambda.core\\2.1.0\\amazon.lambda.core.2.1.0.nupkg.sha512",
+    "C:\\Users\\heinr\\.nuget\\packages\\amazon.lambda.logging.aspnetcore\\3.1.0\\amazon.lambda.logging.aspnetcore.3.1.0.nupkg.sha512",
+    "C:\\Users\\heinr\\.nuget\\packages\\amazon.lambda.serialization.systemtextjson\\2.3.0\\amazon.lambda.serialization.systemtextjson.2.3.0.nupkg.sha512",
     "C:\\Users\\heinr\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\heinr\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\heinr\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
@@ -52,7 +58,8 @@
     "C:\\Users\\heinr\\.nuget\\packages\\system.security.permissions\\4.7.0\\system.security.permissions.4.7.0.nupkg.sha512",
     "C:\\Users\\heinr\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
     "C:\\Users\\heinr\\.nuget\\packages\\system.text.encoding.codepages\\4.7.0\\system.text.encoding.codepages.4.7.0.nupkg.sha512",
-    "C:\\Users\\heinr\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512"
+    "C:\\Users\\heinr\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512",
+    "C:\\Users\\heinr\\.nuget\\packages\\microsoft.netcore.app.host.linux-x64\\6.0.10\\microsoft.netcore.app.host.linux-x64.6.0.10.nupkg.sha512"
   ],
   "logs": []
 }

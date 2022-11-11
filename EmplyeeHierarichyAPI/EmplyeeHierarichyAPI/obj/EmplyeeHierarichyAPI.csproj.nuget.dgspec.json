@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\heinr\\Desktop\\epi-use\\EmplyeeHierarichyAPI\\EmplyeeHierarichyAPI\\EmplyeeHierarichyAPI.csproj": {}
+    "C:\\Users\\heinr\\Desktop\\Capstone\\EmployeeHierarchy\\EmplyeeHierarichyAPI\\EmplyeeHierarichyAPI\\EmplyeeHierarichyAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\heinr\\Desktop\\epi-use\\EmplyeeHierarichyAPI\\EmplyeeHierarichyAPI\\EmplyeeHierarichyAPI.csproj": {
+    "C:\\Users\\heinr\\Desktop\\Capstone\\EmployeeHierarchy\\EmplyeeHierarichyAPI\\EmplyeeHierarichyAPI\\EmplyeeHierarichyAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\heinr\\Desktop\\epi-use\\EmplyeeHierarichyAPI\\EmplyeeHierarichyAPI\\EmplyeeHierarichyAPI.csproj",
+        "projectUniqueName": "C:\\Users\\heinr\\Desktop\\Capstone\\EmployeeHierarchy\\EmplyeeHierarichyAPI\\EmplyeeHierarichyAPI\\EmplyeeHierarichyAPI.csproj",
         "projectName": "EmplyeeHierarichyAPI",
-        "projectPath": "C:\\Users\\heinr\\Desktop\\epi-use\\EmplyeeHierarichyAPI\\EmplyeeHierarichyAPI\\EmplyeeHierarichyAPI.csproj",
+        "projectPath": "C:\\Users\\heinr\\Desktop\\Capstone\\EmployeeHierarchy\\EmplyeeHierarichyAPI\\EmplyeeHierarichyAPI\\EmplyeeHierarichyAPI.csproj",
         "packagesPath": "C:\\Users\\heinr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\heinr\\Desktop\\epi-use\\EmplyeeHierarichyAPI\\EmplyeeHierarichyAPI\\obj\\",
+        "outputPath": "C:\\Users\\heinr\\Desktop\\Capstone\\EmployeeHierarchy\\EmplyeeHierarichyAPI\\EmplyeeHierarichyAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\heinr\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Amazon.Lambda.AspNetCoreServer": {
+              "target": "Package",
+              "version": "[7.2.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.10, )"
@@ -74,6 +78,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[6.0.10, 6.0.10]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -83,6 +93,11 @@
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "linux-x64": {
+          "#import": []
         }
       }
     }
